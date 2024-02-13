@@ -63,6 +63,6 @@ nomeConsulta = input('Insira um nome porfavor: ')
 listaContactos = consultarTelefone(nomeConsulta)
 
 if listaContactos:
-    print(listaContactos)
+    print("Contactos de ",nomeConsulta," ",listaContactos)
 else:
     print('NAO EXISTE ESSE CONTACTO')
