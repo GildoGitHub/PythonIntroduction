@@ -17,8 +17,7 @@ print(notas)
 
 def mediaNome(nome):
     soma = 0.0
-    for nota in notas[nome]:
-        soma+=nota
+    soma = sum(notas[nome])
     soma/=2
     return soma
 
